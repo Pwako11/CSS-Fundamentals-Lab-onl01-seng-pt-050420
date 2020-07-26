@@ -4,27 +4,42 @@ body {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
+header {
+  text-align: center 
+}
+
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 900px
 }
 
 nav {
-  text-align: center;
-  background-color: lightgray;
-  background-position: center;
-  right: 10px;
-  left: 10px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightblue
 }
 
-figure {
-  text-align: center;
+figcaption {
+   text-align: center;
+   font-size: 12px
 }
 
-
-section id="featured-property" #p{
-
+section p{
   margin-left: auto;
   margin-right: auto;
-  width: 800px
+  width: 800px;
+  text-align: center;
+
 }
+
+#details{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  column-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+ }
