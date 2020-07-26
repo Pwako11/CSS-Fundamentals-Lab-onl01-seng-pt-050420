@@ -11,6 +11,7 @@ h1 {
 nav, a {
   text-align: center;
   background-color: lightgray;
+  background-position: right top;
   right: 10px;
   left: 10px;
   padding: 10px;
